@@ -13,4 +13,4 @@ def calcular_pi(n_pontos):
             pontos_dentro += 1
 
     pi_estimado = 4 * pontos_dentro / n_pontos
-    return pi_estimado, pontos, pontos_dentro
+    return pi_estimado, pontos_dentro
